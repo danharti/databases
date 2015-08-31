@@ -1,0 +1,18 @@
+Data format
+
+1. String Data
+    2 common types of string:
+      a. varchar - shorter strings
+      b. text - longer strings
+2. Numeric Data
+    a. integer - whole numbers
+    b. fixed point - decimal with the same decimal numbers
+    c. float point - mix decimal numbers (or any number?)
+3. Date and Time Data
+    > Store temporal data or data relating to time
+    a. Date
+    b. Time
+    c. DateTime
+    
+
+
