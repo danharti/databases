@@ -1,0 +1,82 @@
+Create, retrieve, update and delete (CRUD) refers to the four major functions implemented in database applications.
+
+Create - insertion of data
+Retrieve - retrieval of data
+Update - editing the data
+Delete - remove the data
+
+
+
+
+Retrieving a Result Set
+keyword: SELECT
+
+SELECT * FROM tableName;
+SELECT tableName1.columnName1, tableName2.columnName2 FROM tableName;
+SELECT columnName1, columnName2 FROM tableName;
+SELECT columnName FROM tableName;
+(you can interchange column positions)
+
+--------------------
+Querying Tables
+clause - allows you to filter the results set instead of selecting all the information from the table.
+
+WHERE - add a test or condition to filter the results set to only bring back the rows fulfilling that condition.
+AND - combining a condition
+OR - getting two conditions
+BETWEEN - 
+LIKE - keyword string search
+% - wild card
+
+SELECT * FROM stuff WHERE year = 2000;
+SELECT * FROM stuff WHERE year = 2000 AND name = "The Stuff";
+SELECT * FROM stuff WHERE year = 2000 OR year = 2010;
+SELECT * FROM stuff WHERE year BETWEEN 2000 AND 2010;
+
+SELECT * FROM stuff WHERE name LIKE 'blue%'; - Start
+SELECT * FROM stuff WHERE name LIKE '%blue'; - Ends
+SELECT * FROM stuff WHERE name LIKE '%blue%'; - Contain a particular string
+
+In the SQL, 
+operators:
+= equal to
+!= not equal to
+> greater than
+< less than
+>= greater than and equal to
+<= less than and equal to
+
+--------------------
+Ordering the Result Set
+
+ORDER BY
+
+SELECT * FROM stuff ORDER BY year;
+SELECT * FROM stuff ORDER BY year ASC; (ascending order)
+SELECT * FROM stuff ORDER BY year DESC; (descending order)
+
+SELECT * FROM stuff ORDER BY year DESC, stuff ASC;
+Position matters here - what you ask first will be the basis for the positioning.
+
+--------------------
+Limiting the Result Set
+
+LIMIT
+
+SELECT * FROM stuff LIMIT 10;
+SELECT * FROM stuff LIMIT 10 OFFSET 0; (counting starts at 0)
+SELECT * FROM stuff LIMIT 10 OFFSET 10;
+SELECT * FROM stuff LIMIT 10 OFFSET 20;
+
+SELECT * FROM stuff LIMIT 20, 10; (first number: location number, second number is number limit)
+eg. get the 21 to 30 items in stuff.
+
+--------------------
+Dealing with null
+null - means data isn't present in the database (empty data)
+
+"IS NULL"
+"IS NOT NULL"
+
+SELECT * FROM stuff WHERE year IS NULL;
+SELECT * FROM stuff WHERE year IS NOT NULL ORDER BY year;
