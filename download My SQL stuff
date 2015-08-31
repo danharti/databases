@@ -20,3 +20,14 @@ sudo cp /usr/local/mysql/support-files/my-default.cnf /etc/my.cnf
 >>it just means to copy this file to that file location
 
 .cnf is a configuration file
+
+MySQL Configuration
+    MySQL Version:  5.1
+    Settings Template:  MacOS X (MySQL Package)
+    Path to Configuration File:  /etc/my.cnf
+    Instance Name in Configuration File:  mysqld
+
+Commands for MySQL Management
+    Start MySQL:  /usr/local/mysql/support-files/mysql.server start
+    Stop MySQL:  /usr/local/mysql/support-files/mysql.server stop
+    Use sudo:  Yes
