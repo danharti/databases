@@ -28,3 +28,10 @@ SELECT*FROM movies;
 SELECT - keyword
 * - all
 FROM - clause from where the data should be retrieve
+
+
+TO CONNECT IT TO node project:
+npm install mysql
+https://github.com/felixge/node-mysql/
+https://www.npmjs.com/package/node-mysql
+https://www.youtube.com/watch?v=XuLRKMqozwA
