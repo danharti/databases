@@ -1,0 +1,18 @@
+Select Table
+
+SELECT*From tableName;
+
+
+**********
+
+Create Table
+
+CREATE TABLE tableName (columnName VARCHAR(20), columnName2 INTEGER);
+
+
+**********
+
+Insert data
+
+INSERT INTO tableName VALUES ("string", 2000);
+
