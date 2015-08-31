@@ -8,7 +8,9 @@ Data - the information that's stored in a database.
 
 Relational Databases eg. Postgres, SQLite, and MySQL
 
-others: eg. Redis, CouchDB, MongoDB
+others: eg. Redis, CouchDB, 
+
+NoSQL Database: MongoDB
 
 Tables and columns are the structures in which your data will reside.
 Tables are spreadsheet-like structures with columns and rows.
