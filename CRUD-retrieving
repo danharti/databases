@@ -5,8 +5,7 @@ Retrieve - retrieval of data
 Update - editing the data
 Delete - remove the data
 
-
-
+--------------------------------------------------
 
 Retrieving a Result Set
 keyword: SELECT
