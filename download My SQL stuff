@@ -1,0 +1,22 @@
+http://mysql.com
+Download:
+
+Client: MySQL Workbench 
+Server: MySQL Community Server
+
+MySQL server requires a configuration file in a special folder on your hard drive called etc
+Not present on default install so we have to copy it there
+
+Configuration file (config file) is a set of values in a file that a program uses to operate.
+This can be changed to alter how the program operates.
+
+Servers normally don't have a User interface - so this is the way to interact with the application.
+
+Terminal:
+sudo cp /usr/local/mysql/support-files/my-default.cnf /etc/my.cnf
+
+>>cp means copy
+>>we use sudo here since it a .cnf file 
+>>it just means to copy this file to that file location
+
+.cnf is a configuration file
