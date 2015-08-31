@@ -1,0 +1,10 @@
+Create, retrieve, update and delete (CRUD) refers to the four major functions implemented in database applications.
+
+Create - insertion of data
+Retrieve - retrieval of data
+Update - editing the data
+Delete - remove the data
+
+--------------------------------------------------
+
+Creating Tables and Manipulating Schema and Data
