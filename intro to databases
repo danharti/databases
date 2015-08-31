@@ -1,0 +1,28 @@
+# databases
+Notes on Databases
+
+Databases - used to store massive amount of information that can be retrieved anytime.
+
+Schema - describes the organization of data and relationships within a database aka Modeling.
+Data - the information that's stored in a database.
+
+Relational Databases eg. Postgres, SQLite, and MySQL
+
+others: eg. Redis, CouchDB, MongoDB
+
+Tables and columns are the structures in which your data will reside.
+Tables are spreadsheet-like structures with columns and rows.
+Rows are structures containing a set of data. (aka tuples)
+
+Each table has a name.
+
+Column is a property or attribute of the entity you want to store.
+Column has name.
+
+SQL- Structured Query Language (how we talk to databases) (also pronounce a sequel)
+
+basic select statement:
+SELECT*FROM movies;
+SELECT - keyword
+* - all
+FROM - clause from where the data should be retrieve
